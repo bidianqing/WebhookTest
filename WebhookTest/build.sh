@@ -15,4 +15,4 @@ cd /var/publish/WebhookTest
 sudo docker build -t bidianqing/webhooktest:${tag} .
 sudo docker images
 sudo docker push bidianqing/webhooktest:${tag}
-sudo docker rmi bidianqing/WebhookTest:${tag}
+sudo docker rmi bidianqing/webhooktest:${tag}
