@@ -11,6 +11,6 @@ dotnet publish -c Release -o /var/publish/WebhookTest
 
 cd /var/publish/WebhookTest
 
-docker build -t webhooktest:$0 .
-docker tag webhooktest:$0 bidianqing/webhooktest:$0
-dokcer images
+sudo docker build -t webhooktest:$0 .
+sudo docker tag webhooktest:$0 bidianqing/webhooktest:$0
+sudo dokcer images
