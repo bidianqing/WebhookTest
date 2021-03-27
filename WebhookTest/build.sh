@@ -1,3 +1,4 @@
 #!/bin/bash
 echo "Hello World !"
-echo "commitid:$0";
+echo "filename:$0";
+echo "commitid:$1";
