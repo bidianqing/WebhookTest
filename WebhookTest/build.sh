@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tag=$0
+tag=$1
 echo "${tag}"
 echo "filename:$0"
 echo "commitid:$1"
