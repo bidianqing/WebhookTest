@@ -1,9 +1,6 @@
 #!/bin/bash
 
-image="/bidianqing/webhooktest:$0"
-echo "Hello World !"
-echo "filename:$0"
-echo "commitid:$1";
+tag=$0
 
 cd /root/projects/WebhookTest/WebhookTest/
 
@@ -13,6 +10,6 @@ dotnet publish -c Release -o /var/publish/WebhookTest
 
 cd /var/publish/WebhookTest
 
-sudo docker build -t ${image} .
+sudo docker build -t webhooktest:"${tag}" .
 # sudo docker tag webhooktest:$imagetag bidianqing/webhooktest:$imagetag
 sudo docker images
