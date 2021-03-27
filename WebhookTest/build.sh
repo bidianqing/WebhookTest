@@ -1,5 +1,5 @@
 #!/bin/bash
-imagetag=$0;
+imagetag="$0";
 echo "Hello World !"
 echo "filename:$0";
 echo "commitid:$1";
