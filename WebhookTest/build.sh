@@ -13,4 +13,4 @@ cd /var/publish/WebhookTest
 
 sudo docker build -t webhooktest:$0 .
 sudo docker tag webhooktest:$0 bidianqing/webhooktest:$0
-sudo dokcer images
+sudo docker images
