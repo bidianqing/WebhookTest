@@ -1,7 +1,6 @@
 #!/bin/bash
 
 tag=$1
-echo "${tag}"
 echo "filename:$0"
 echo "commitid:$1"
 
@@ -13,6 +12,6 @@ dotnet publish -c Release -o /var/publish/WebhookTest
 
 cd /var/publish/WebhookTest
 
-sudo docker build -t webhooktest:${tag} .
+sudo docker build -t bidianqing/webhooktest:${tag} .
 # sudo docker tag webhooktest:$imagetag bidianqing/webhooktest:$imagetag
 sudo docker images
