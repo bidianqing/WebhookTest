@@ -12,6 +12,6 @@ dotnet publish -c Release -o /var/publish/WebhookTest
 
 cd /var/publish/WebhookTest
 
-sudo docker build -t bidianqing/webhooktest:imagetag .
-# sudo docker tag webhooktest:imagetag bidianqing/webhooktest:imagetag
+sudo docker build -t bidianqing/webhooktest:$imagetag .
+# sudo docker tag webhooktest:$imagetag bidianqing/webhooktest:$imagetag
 sudo docker images
