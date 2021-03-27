@@ -7,4 +7,4 @@ cd /root/projects/WebhookTest/WebhookTest/
 
 dotnet build
 
-dotnet publish -c Release
+dotnet publish -c Release -o /var/publish/WebhookTest
