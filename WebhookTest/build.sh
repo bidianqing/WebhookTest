@@ -1,7 +1,7 @@
 #!/bin/bash
 
 tag=$0
-echo tag
+echo "${tag}"
 echo "filename:$0"
 echo "commitid:$1"
 
